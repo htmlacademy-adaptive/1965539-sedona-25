@@ -1,0 +1,49 @@
+$item-left-padding: 47px;
+
+.recommendation {
+  padding: 30px 18px 20px;
+
+  &__list {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  &__item {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: $item-left-padding;
+  }
+
+  &__title-wrap {
+    display: flex;
+    position: relative;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+
+  &__description {
+    color: #333333;
+  }
+
+  &__image {
+    position: absolute;
+    left: -$item-left-padding;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__describe {
+    width: 255px;
+  }
+}
+
+.image img {
+  width: 40px;
+  height: 40px;
+}

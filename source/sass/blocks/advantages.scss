@@ -1,0 +1,56 @@
+.advantages {
+  &__list {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  &__item {
+    list-style: none;
+    text-align: center;
+    line-height: 21px;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__description {
+    line-height: 21px;
+  }
+
+  &__image {
+    height: 260px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #e7b9a2;
+  }
+
+  &__reason {
+    padding-top: 26px;
+    padding-bottom: 40px;
+    background-color: #eeeeee;
+  }
+
+  &__reason--active {
+    background-color: #81b3d2;
+    color: #ffffff;
+  }
+
+  &__number {
+    padding-top: 11px;
+    padding-bottom: 17px;
+  }
+
+  &__reason--triangle {
+    padding-top: 70px;
+    background-image: url("../../img/Group\ 4.png");
+    background-repeat: no-repeat;
+    right: 50%;
+  }
+}
+
+.advantages img {
+  width: 100%;
+  height: 100%;
+}
