@@ -1,1 +1,29 @@
-// Начните писать стили здесь
+@import "./blocks/advantages-intro.scss";
+@import "./blocks/greeting.scss";
+@import "./blocks/heading.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/page.scss";
+@import "./blocks/recommendation.scss";
+@import "./blocks/search.scss";
+@import "./blocks/site-list.scss";
+@import "./blocks/advantages.scss";
+@import "./global.scss";
+@import "./blocks/social.scss";
+@import "./blocks/copyright.scss";
+
+@font-face {
+  font-family: "Pt Sans";
+  src: url("../fonts/ptsans.woff2") format("woff2"),
+    url("../fonts/ptsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pt Sans";
+  src: url("../fonts/ptsansbold.woff2") format("woff2"),
+    url("../fonts/ptsansbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}

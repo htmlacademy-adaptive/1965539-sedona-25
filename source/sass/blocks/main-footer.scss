@@ -1,0 +1,16 @@
+.main-footer {
+  text-align: center;
+
+  &__hashtag {
+    align-items: center;
+    padding-top: 38.5px;
+    padding-bottom: 33.5px;
+    font-size: 21px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6px;
+  }
+}

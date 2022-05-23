@@ -1,0 +1,28 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 29px;
+
+  &:hover {
+    svg {
+      fill: #81b3d2;
+    }
+
+    .copyright__text {
+      color: #81b3d2;
+    }
+  }
+
+  &__text {
+    display: block;
+    color: #000000;
+    margin-right: 5px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
